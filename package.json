@@ -1,0 +1,18 @@
+{
+  "name": "@hand-on-web/voice-cloning-demo",
+  "version": "1.0.0",
+  "description": "Voice cloning demo using ElevenLabs text-to-speech API",
+  "main": "server.js",
+  "homepage": "https://www.handonweb.com",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["voice-cloning", "elevenlabs", "text-to-speech", "demo"],
+  "author": "Hand On Web Ltd <outreach@handonweb.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "node-fetch": "^2.7.0"
+  }
+}
